@@ -1,0 +1,37 @@
+.feed{
+    width: 20%;
+}
+.feed_news, .feed_course, .feed_job{
+padding: 20px;    
+border-radius:5px;
+background-color: #fff;
+margin: 10px 0 10px;}
+.feed p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.feed_job{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkedicon{
+    transform: scale(2);
+    color: blue;
+    margin-left: 15px;
+}
+.feed_url_logo{
+    display: flex;
+    align-items: center;
+}
+.feed_job button{
+    padding: 7px;
+    border-radius: 20px;
+    color: blue;
+    border-color: blue;
+}
+@media (max-width:960px){
+    .feed{
+        display: none;
+    }
+}

@@ -1,0 +1,7 @@
+.body{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(225, 228, 228);
+}
